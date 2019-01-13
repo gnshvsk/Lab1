@@ -1,12 +1,12 @@
-/*Ëàáîðàòîðíàÿ ðàáîòà ¹1
- *Çàäàíèå: ïîäñ÷åò óíèêàëüíûõ ñèìâîëîâ â ñòðîêå, êîòîðàÿ ââîäèòñÿ ñ êëàâèàòóðû, è èõ âûâîä â ôîðìå: ñèìâîë - êîëè÷åñòâî
- *Âûïîëíèëà: Ãîíàøåâñêàÿ Ç.Ì., ãð. ÈÂÒ-173
- */
+package com.company;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Лабораторная работа №1");
+        System.out.println("Подсчет уникальных символов в строке");
+        System.out.println("Выполнила: Гонашевская З.М. гр.ИВТ-173");
         String text;
         Scanner  in = new Scanner(System.in);
         System.out.print("Enter you text : ");
